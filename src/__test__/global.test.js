@@ -35,7 +35,6 @@ test('Probar callback', () => {
   })
 })
 
-
 const reverseString2 = (str) => {
   return new Promise(( resolve, reject ) =>  {
     if(!str) {
